@@ -1,0 +1,16 @@
+# Folder node.js
+node_modules/
+
+# File konfigurasi pribadi
+.env
+
+# File sistem
+.DS_Store
+Thumbs.db
+
+# Build output (jika ada)
+dist/
+build/
+
+# File sementara
+*.log

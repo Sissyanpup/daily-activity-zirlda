@@ -1,0 +1,52 @@
+section highlight :
+
+<section id="highlight" class="pt-36 pb-32">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap justify-center md:items-center md:self-center ">
+                <!-- blog 1 -->
+                <div class="w-3/5 md:w-1/3 bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 mx-5 hover:shadow-xl transition transform duration-300 mb-10">
+                    <a href="#">
+                        <!-- Gambar Highlight -->
+                        <img src="" alt="Kegiatan Terbaru" class="w-full h-64 object-cover">
+                        <div class="p-6 text-center">
+                            <h2 class="text-2xl font-semibold mb-2 block truncate text-primary">Kegiatan Terbaru</h2>
+                            <p class="block truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae iste, error doloribus enim praesentium blanditiis molestias distinctio asperiores! Voluptatem, numquam.</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- blog 2 -->
+                <div class="w-3/5 md:w-1/3 bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 mx-5 hover:shadow-xl transition transform duration-300 mb-10">
+                    <a href="#">
+                        <!-- Gambar Highlight -->
+                        <img src="" alt="Kegiatan Kuliah" class="w-full h-64 object-cover">
+                        <div class="p-6 text-center">
+                            <h2 class="text-2xl font-semibold mb-2 block truncate text-primary">Kegiatan Kuliah</h2>
+                            <p class="block truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae iste, error doloribus enim praesentium blanditiis molestias distinctio asperiores! Voluptatem, numquam.</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- blog 3 -->
+                <div class="w-3/5 md:w-1/3 bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 mx-5 hover:shadow-xl transition transform duration-300 mb-10">
+                    <a href="#">
+                        <!-- Gambar Highlight -->
+                        <img src="" alt="Latihan Piano" class="w-full h-64 object-cover">
+                        <div class="p-6 text-center">
+                            <h2 class="text-2xl font-semibold mb-2 block truncate text-primary">Latihan Piano</h2>
+                            <p class="block truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae iste, error doloribus enim praesentium blanditiis molestias distinctio asperiores! Voluptatem, numquam.</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- blog 4 -->
+                <div class="w-3/5 md:w-1/3 bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 mx-5 hover:shadow-xl transition transform duration-300 mb-10">
+                    <a href="#">
+                        <!-- Gambar Highlight -->
+                        <img src="" alt="Kegiatan Sehari-hari" class="w-full h-64 object-cover">
+                        <div class="p-6 text-center">
+                            <h2 class="text-2xl font-semibold mb-2 block truncate text-primary">Kegiatan Sehari-hari</h2>
+                            <p class="block truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae iste, error doloribus enim praesentium blanditiis molestias distinctio asperiores! Voluptatem, numquam.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,83 @@
+Struktur Navigasi Website
+
+Home (Beranda)
+
+Jadwal Harian
+
+Galeri Foto
+
+Blog / Jurnal Harian
+
+Tentang Saya
+
+(Opsional: Statistik Kegiatan / To-Do List)
+
+📌 Kerangka Halaman
+1. Home (Beranda)
+
+Header (judul website + menu navigasi).
+
+Perkenalan singkat (siapa kamu, tujuan website).
+
+Quote / motivasi singkat.
+
+Highlight kegiatan terbaru (link menuju halaman detail).
+
+2. Jadwal Harian
+
+Judul halaman: Jadwal Kegiatan Sehari-hari.
+
+Tabel berisi:
+
+Jam	Kegiatan	Kategori (opsional)
+06:00	Bangun Tidur	Harian
+07:00	Sarapan	Harian
+Bisa tambahkan filter (misal: kegiatan akademik, olahraga, hiburan).
+
+3. Galeri Foto
+
+Grid foto kegiatan sehari-hari.
+
+Bisa klik foto untuk memperbesar (lightbox effect).
+
+Tambahkan caption singkat di bawah foto.
+
+4. Blog / Jurnal Harian
+
+Daftar catatan harian (berurutan dari terbaru).
+
+Contoh:
+
+📅 21 September 2025: Hari ini saya jalan pagi di taman...
+
+📅 20 September 2025: Hari ini saya belajar coding di rumah...
+
+Bisa berbentuk list sederhana atau artikel panjang.
+
+5. Tentang Saya
+
+Foto profil (opsional).
+
+Data diri singkat: nama, jurusan/aktivitas, hobi, cita-cita.
+
+Kontak / link ke media sosial (opsional).
+
+6. (Opsional) Statistik Kegiatan
+
+Grafik (Chart.js atau CSS) yang menampilkan ringkasan kegiatan.
+
+Contoh:
+
+Jumlah olahraga per minggu.
+
+Rata-rata jam tidur.
+
+Berapa kali menulis blog/jurnal dalam sebulan.
+
+7. (Opsional) To-Do List / Rencana
+
+Input teks + tombol "Tambah".
+
+Daftar rencana muncul di bawah.
+
+Bisa diberi tanda centang ✅ jika selesai.
