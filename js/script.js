@@ -24,19 +24,33 @@ humberger.addEventListener('click', function(){
 //
 //scroll down
 document.addEventListener('scroll', () => {
-    const scrollY = window.scrollY;
-    const windowHeight = window.innerHeight;
-    const docHeight = document.documentElement.scrollHeight;
+  const scrollY = window.scrollY;
+  const windowHeight = window.innerHeight;
+  const docHeight = document.documentElement.scrollHeight;
 
-    if (scrollY + windowHeight >= docHeight) {
-        // Sudah di bawah
-        document.getElementById('scrollButton').style.opacity = '0';
-        document.getElementById('scrollButton').style.pointerEvents = 'none';
-    } else {
-        // Belum di bawah
-        document.getElementById('scrollButton').style.opacity = '1';
-        document.getElementById('scrollButton').style.pointerEvents = 'auto';
-    }
+  const scrollButton = document.getElementById('scrollButton');
+  const arrowPath = document.getElementById('arrowPath');
+
+  if (scrollY + windowHeight >= docHeight - 5) {
+    // ✅ Sudah sampai paling bawah
+    scrollButton.style.bottom = 'auto';
+    scrollButton.style.right = '20px';
+    scrollButton.style.top = '105px'; // pindah ke kanan atas
+    scrollButton.href = "#"; // arahkan ke atas
+
+    // Ganti panah jadi ke atas
+    arrowPath.setAttribute('d', 'M5 15l7-7 7 7');
+
+  } else {
+    // ✅ Belum sampai bawah
+    scrollButton.style.top = 'auto';
+    scrollButton.style.bottom = '20px';
+    scrollButton.style.right = '20px';
+    scrollButton.href = "#the-end"; // arahkan ke bawah
+
+    // Ganti panah jadi ke bawah
+    arrowPath.setAttribute('d', 'M19 9l-7 7-7-7');
+  }
 });
 
 //pop up gambar
