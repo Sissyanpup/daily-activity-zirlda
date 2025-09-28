@@ -33,9 +33,6 @@ document.addEventListener('scroll', () => {
 
   if (scrollY + windowHeight >= docHeight - 5) {
     // ✅ Sudah sampai paling bawah
-    scrollButton.style.bottom = 'auto';
-    scrollButton.style.right = '20px';
-    scrollButton.style.top = '105px'; // pindah ke kanan atas
     scrollButton.href = "#"; // arahkan ke atas
 
     // Ganti panah jadi ke atas
@@ -43,9 +40,6 @@ document.addEventListener('scroll', () => {
 
   } else {
     // ✅ Belum sampai bawah
-    scrollButton.style.top = 'auto';
-    scrollButton.style.bottom = '20px';
-    scrollButton.style.right = '20px';
     scrollButton.href = "#the-end"; // arahkan ke bawah
 
     // Ganti panah jadi ke bawah
